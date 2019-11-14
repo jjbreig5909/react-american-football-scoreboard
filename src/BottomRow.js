@@ -1,7 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import "./App.css";
-
-const BottomRow = () => {
+// import { addQuarter } from "./App.js";
+export const BottomRow = () => {
   return (
     <div className="bottomRow">
       <div className="down">
@@ -24,4 +24,4 @@ const BottomRow = () => {
   );
 };
 
-export default BottomRow;
+
